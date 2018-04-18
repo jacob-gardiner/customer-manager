@@ -1,0 +1,120 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Font Awesome
+@import "~font-awesome/scss/font-awesome.scss";
+
+
+.navbar {
+    background-color : $primary;
+    box-shadow       : 0 2px 4px rgba(0, 0, 0, 0.04);
+
+    .navbar-nav {
+
+        .nav-link {
+            color       : white;
+            font-size   : 1.2rem;
+            font-weight : bold;
+
+            &:hover{
+                color : white   ;
+                -webkit-transition : $speed;
+                -moz-transition    : $speed;
+                -ms-transition     : $speed;
+                -o-transition      : $speed;
+                transition         : $speed;
+                -webkit-transform: scale(1.08);
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    .navbar-brand{
+        color : white;
+    }
+
+    a{
+        color       : white;
+        font-size   : 1.2rem;
+        font-weight : bold;
+
+        &.dropdown-item{
+            color : #000;
+        }
+    }
+}
+
+
+.card-header {
+    background  : darken($primary, 5);
+    color       : white;
+    font-size   : 1.2rem;
+    font-weight : bold;
+}
+
+.form-group{
+    label{
+        font-weight: bold;
+        font-size:1.2rem;
+    }
+
+    button
+    {
+        font-size: 1rem;
+    }
+}
+
+#accordion{
+    .btn-link{
+        color : white;
+    }
+}
+
+// TRANSITIONS
+.grow{
+    &:hover{
+        -webkit-transition : $speed;
+        -moz-transition    : $speed;
+        -ms-transition     : $speed;
+        -o-transition      : $speed;
+        transition         : $speed;
+
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+}
+
+.skew{
+    &:hover{
+        -webkit-transition : $speed;
+        -moz-transition    : $speed;
+        -ms-transition     : $speed;
+        -o-transition      : $speed;
+        transition         : $speed;
+        -webkit-transform: scale(1.1);
+        transform: skew(5deg,5deg);
+    }
+}
+
+.rotate{
+    &:hover{
+        -webkit-transition : $speed;
+        -moz-transition    : $speed;
+        -ms-transition     : $speed;
+        -o-transition      : $speed;
+        transition         : $speed;
+        -webkit-transform: scale(1.1);
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
