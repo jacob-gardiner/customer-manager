@@ -1,5 +1,5 @@
 # customer-manager
-A basic customer management application created with Laravel
+A basic customer management application created with Laravel to demonstrate CRUD functionalty.
 
 ### Login/Register
 
