@@ -1,6 +1,8 @@
 # customer-manager
 A basic customer management application created with Laravel to demonstrate CRUD functionalty.
 
+Live Demo: http://159.89.119.124
+
 ### Login/Register
 
 [![c dark](https://github.com/jacob-gardiner/customer-manager/blob/master/readme_images/1_login.PNG)](https://github.com/jacob-gardiner/customer-manager/blob/master/readme_images/1_login.PNG)
